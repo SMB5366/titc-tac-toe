@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1 id="win"></h1>
+
+<section>
+	<h4>Имена игроков</h4>
+	<p>Первый игрок: <span id="name1"></span></p>
+	<p>Второй игрок: <span id="name2"></span></p>
+
+
+	<button id="edit">Изменить</button>
+</section>	
+
+<section>
+	<div class="wrapper" id="box">
+
+		<div class="cell" id="1" data-pip="">
+			<img id="10" src="img/SpongeBob.png">
+			<img id="11" src="img/patrick.png">
+		</div>
+
+
+		<div class="cell" id="2" data-pip="">	
+			<img id="20" src="img/SpongeBob.png">
+			<img id="21" src="img/patrick.png">
+		</div>
+
+
+		<div class="cell" id="3" data-pip="">	
+			<img id="30" src="img/SpongeBob.png">
+			<img id="31" src="img/patrick.png">
+		</div>
+
+
+		<div class="cell" id="4" data-pip="">	
+			<img id="40" src="img/SpongeBob.png">
+			<img id="41" src="img/patrick.png">
+		</div>
+
+
+		<div class="cell" id="5" data-pip="">	
+			<img id="50" src="img/SpongeBob.png">
+			<img id="51" src="img/patrick.png">
+		</div>
+
+
+
+		<div class="cell" id="6" data-pip="">	
+			<img id="60" src="img/SpongeBob.png">
+			<img id="61" src="img/patrick.png">
+		</div>
+
+
+
+		<div class="cell" id="7" data-pip="">	
+			<img id="70" src="img/SpongeBob.png">
+			<img id="71" src="img/patrick.png">
+		</div>
+
+
+
+		<div class="cell" id="8" data-pip="">	
+			<img id="80" src="img/SpongeBob.png">
+			<img id="81" src="img/patrick.png">
+		</div>
+
+
+
+		<div class="cell" id="9" data-pip="">	
+			<img id="90" src="img/SpongeBob.png">
+			<img id="91" src="img/patrick.png">
+		</div>
+	</div>
+
+
+	<div class="result" id="result">
+		<button onclick="result()">Результат</button>
+	</div>
+
+
+	<div class="restart">
+		<a href="index.html">Начать заново</a>
+	</div>
+
+	
+</section>
+
+
+
+
+
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	
+
+<h3> Игрок 1 </h3>
+
+		<label>Введите имя первого игрока: </label>
+		<input id="cont1" type="text" class="" cost="">
+
+<h3> Игрок 2 </h3>
+
+		<label>Введите имя второго игрока: </label>
+		<input id="cont2" type="text" class="" cost="">
+
+		<br><br>
+
+
+		<button id="save">Сохранить</button>
+
+
+	</div>
+</div>		
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
